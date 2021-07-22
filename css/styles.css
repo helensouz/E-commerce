@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2? family = Poppins: wght @ 300 & display = swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+
+header{
+    
+    height: 100px;
+    background: #FFFFFF;
+    border-bottom: 2px solid #F54251;
+   
+   
+
+}
+.nav ul{
+    padding-left: px;
+    padding-top: 30px;
+}
+
+.nav ul li{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    color: #525252;
+    padding-right: 30px;
+   
+    
+}
+
+.nav ul li:first-child{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F54251;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.logo{
+    margin: 0 auto;
+    padding-right: 200px;
+}
+
+
+
+
+
+/* .photos img{
+    display: inline-block;
+    position: relative;
+} */
+
+.btn-inverno{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+   z-index: 1;
+   position: absolute;
+   left: 510px;
+    top: 560px;
+    color: #FFFFFF;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+    
+}
+
+.btn-inverno:hover{
+    background: rgba(250, 250, 250, 0.49);
+    color: #fff;
+}
+
+.photos h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 28px;
+    color: white;
+    letter-spacing: 0.75px;
+
+
+    left: 460px;
+    top: 169px;
+    z-index: 1;
+    position: absolute;
+}
+
+.photos{
+    display: inline-flex;
+}
+
+
+
+.btn-joias{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+   z-index: 1;
+   position: absolute;
+   left: 1120px;
+   top: 568px;
+    color: #FFFFFF;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+    
+}
+
+.btn-joias:hover{
+    background: rgba(250, 250, 250, 0.49);
+    color: #fff;
+}
+
+.joias h1{ 
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 28px;
+    color: white;
+    letter-spacing: 0.75px;
+
+
+    left: 760px;
+    top: 570px;
+    z-index: 1;
+    
+}
+.looks{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.text{
+    padding-top: 40px;
+    padding-left: 248px;
+    left: 230px;
+top: 756px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.75px;
+color: #000000;
+}
+
+.text::after, text::before{
+    width: 193px;
+height: 2px;
+left: 233px;
+top: 796px;
+
+/* Red/100 */
+
+background: #C73542;
+}
+
+.card1{
+    padding-left: 233px;
+}
+
+.card3{
+    padding-right: 233px;
+}
+
+
+
